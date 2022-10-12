@@ -1,9 +1,7 @@
 from tkinter import *
+
 #Create a calculator class
 class Calculator:
-
-
-
 
     def __init__(self, master):
 
@@ -18,7 +16,7 @@ class Calculator:
         master.title("Python Calculator")
         
         #Create a line where we display the equation
-        self.equation=Entry(master, width=36, borderwidth=5)
+        self.equation=Entry(master, width=36, borderwidth=52)
 
         #Assign a position for the equation line in the grey application window
         self.equation.grid(row=0, column=0, columnspan=4, padx=10, pady=10)

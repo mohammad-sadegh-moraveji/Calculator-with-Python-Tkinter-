@@ -1,8 +1,4 @@
 from tkinter import *
-
-
-
-
 #Create a calculator class
 class Calculator:
 
@@ -29,9 +25,6 @@ class Calculator:
 
         #Execute the .creteButton() method
         self.createButton()
-
-
-
 
     def createButton(self):
 
